@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -6,11 +10,117 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+
+
 a {
   color: inherit;
   text-decoration: none;
 }
 
+
+
 * {
   box-sizing: border-box;
 }
+
+@keyframes gradient-animation {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
+}
+
+.profile {
+  position: absolute;
+  white-space: normal;
+}
+
+.frontend {
+  position: flex;
+  margin-right: 9in;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.fixes {
+  position: absolute;
+  top: 2.5in;
+}
+
+.name {
+  position: flex;
+  white-space: normal;
+  margin-top: 10px;
+  margin-right: 14.35in;
+  word-wrap: break-word;
+}
+
+.dev {
+  position: flex;
+  margin-top: 10px;
+  margin-right: 14in;
+  word-wrap: break-word;
+}
+
+.toggleDarkBtn {
+  position: absolute;
+  right: 220px;
+  top: 45px;
+  display: inline-block;
+  width: 65px;
+  height: 41px;
+}
+.toggleDarkBtn input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slideBtnTg {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(92,103,198,255);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.slideBtnTg:before {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 30px;
+  left: 5px;
+  bottom: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: white;
+}
+input:checked + .slideBtnTg {
+  background-color: #1d1e1f;
+}
+input:focus + .slideBtnTg {
+  box-shadow: 0 0 1px #2196f3;
+}
+input:checked + .slideBtnTg:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+.slideBtnTg.round {
+  border-radius: 34px;
+}
+.slideBtnTg.round:before {
+  border-radius: 50%;
+}
+
+.seebutton{
+  position: relative;
+  margin-right: 60px;
+  top: 36px;
+}
+
+
