@@ -79,13 +79,13 @@ export default function Home() {
             </div>
 
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <a className="hover:scale-125 ease-in-out transition duration-700" href="">
+              <a className="hover:rotate-6 hover:scale-125 ease-in-out transition duration-700" href="">
               <AiFillGithub />
               </a>
-              <a className="hover:scale-125 ease-in-out transition duration-700" href="https://www.linkedin.com/in/zack-darnell-837596201/">
+              <a className="hover:-rotate-6 hover:scale-125 ease-in-out transition duration-700" href="https://www.linkedin.com/in/zack-darnell-837596201/">
               <AiFillLinkedin />
               </a>
-              <a className="hover:scale-125  ease-in-out transition duration-700" href="https://www.youtube.com/@ZACKDEV/featured">
+              <a className="hover:rotate-6 hover:scale-125  ease-in-out transition duration-700" href="https://www.youtube.com/@ZACKDEV/featured">
               <AiFillYoutube />
               </a>
             </div>
@@ -129,7 +129,7 @@ export default function Home() {
                href="https://github.com/ZeroScriptz/zPause">
               <button 
                 
-                className="hover:scale-105 hover:opacity-75 shadow-xl bg-gradient-to-tr from-teal-700 opacity-60  to-white backdrop-blur-xl dark:bg-info px-1 py-1 border-none rounded-md ml-2  "
+                className="hover:scale-105 hover:opacity-75 shadow-xl ease-in-out duration-700 hover:rotate-6 bg-gradient-to-tr from-teal-700 opacity-60  to-white backdrop-blur-xl dark:bg-info px-1 py-1 border-none rounded-md ml-2  "
                 >
                   <h1 className="text-sm font-bold font-serif text-bold  text-black">
                   Source
@@ -140,17 +140,17 @@ export default function Home() {
                   <a href="https://github.com/ZeroScriptz/zPause/releases/tag/v1.0.0">
                   <button 
                 href="/"
-                className="shadow-xl bg-gradient-to-tl  from-teal-700 opacity-60 hover:scale-105 hover:opacity-75 to-white dark:bg-info text-sm font-bold font-serif text-bold  text-black px-1 py-1 border-none rounded-md ml-2"
+                className="shadow-xl bg-gradient-to-tl ease-in-out duration-700 from-teal-700 opacity-60 hover:scale-105 hover:-rotate-6  hover:opacity-75 to-white dark:bg-info text-sm font-bold font-serif text-black px-1 py-1 border-none rounded-md ml-2"
                 >
                   Download
                   </button>
                   </a>
               <h4 className="py-4 text-black font-bold">Languages Used</h4>
               <div className="text-5xl flex justify-center my-30 text-gray-600 dark:text-gray-400">
-              <p className="text-gray-800 pb-2 py-2 px-3"><SiLua className=" text-5xl" /></p>
-              <p className="text-gray-800 py-2 px-3"><SiHtml5 className=" text-5xl" /></p>
-              <p className="text-gray-800 py-2 px-3"><SiJavascript className=" text-5xl" /></p>
-              <p className="text-gray-800 py-2 px-3"><SiCsswizardry className=" text-5xl" /></p>
+              <p className="text-gray-800 pb-2 py-2 px-3 hover:scale-105 hover:rotate-12 ease-in-out duration-700"><SiLua className=" text-5xl" /></p>
+              <p className="text-gray-800 py-2 px-3 hover:scale-105 hover:-rotate-12 ease-in-out duration-700"><SiHtml5 className=" text-5xl" /></p>
+              <p className="text-gray-800 py-2 px-3 hover:scale-105 hover:rotate-12 ease-in-out duration-700"><SiJavascript className=" text-5xl" /></p>
+              <p className="text-gray-800 py-2 px-3 hover:scale-105 hover:-rotate-12 ease-in-out duration-700"><SiCsswizardry className=" text-5xl" /></p>
               </div>
             </div>
             <div className=" text-center shadow-xl p-10 rounded-md my-10 bg-gradient-to-b  from-teal-600 to-white  dark:bg-info flex-1">
