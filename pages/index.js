@@ -2,14 +2,22 @@ import Head from "next/head";
 import {
   AiFillGithub,
   AiFillLinkedin,
+  AiFillCode,
   AiFillYoutube,
+  AiTwotoneMail,
 } from "react-icons/ai";
 
 import {
   SiLua,
   SiHtml5,
   SiJavascript,
+  SiMinecraft,
+  SiCss3,
+  SiAdobe,
+  SiOpenai,
+  SiOracle,
   SiNextdotjs,
+  SiJson,
   SiCsswizardry,
   SiTypescript,
   SiTailwindcss,
@@ -45,7 +53,7 @@ export default function Home() {
               <li>
                 <a
                   className="dark:bg-info dark:text-black bg-gradient-to-r from-purple-500 font-bold to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="#">
+                  href="https://doc-04-8g-docs.googleusercontent.com/docs/securesc/uk5lhot1lomkv4umut57qrjpcf0bvlp5/tbufr351na0snjvk7pa9aeer9dlgblo1/1673994075000/12703160565844601407/11296394643127616404/1Z55SFBt9YXsrTudy7W-xDrLElxtuopfV?e=download&ax=ALjR8symUPR4mIEqiiodEM4YH0tLXvzmrXgqPcm9bD53GBN3OhwJFn3irNwtm-vweY6wcGjkjzHrjpPlQ4ydTlasKz3tPEseKm-ypJpyPjRE_XfjLBvjt77uUKgn2QL0llduENhdMmcihbhFhefF_E0o86PsSesMcr3qsat7GkmsSCEvd8dPAMWkp_M4aWdMGdUgTEnp_MupMpu9YJfwD93ckrQ-nBII9cGs6KV3MOSQjR_Jp8rMl0842IN6mv1HXKBP_wn_oLIgZcN7IhZhAjboycR9DHv32XHBzLYIqolsT7tQGttNQBrpaJDTUjAJMLC7Mu_zwCnwxSsjs3nKPagRvJCSy0atinjzmsE1k9QC6utfQSnDSHoPUNMiN4ZRDFBulCLJb2xa5JRQqmvYSGFbKXzDCNLgJUolW4MzAuIy4WDmJOb_f6hBL_jOaVCn1YE50a5KEDKVPZOk_j73olwbD5DgRMgOwadWVC_16es3j8RzmN8N0517ikdSLjkQ3KmFPlUUFDA6XsHqD6gKEoO-Eyf7JRrKzy_NlbWBDjLAm8CXSA9R8GMSzsnp9n67G9TiqDSWT2DAmt4EgiqZ8U0E-3sJvYIcRsh_BpcyTlRVDX-aSN1daDD_ARDcjRw7IjWc_iJUg9vB7rpNO61FZGPTHRzifuinRS4nh7xwm9akmH_yQb9dYCoblOmZXay6r1WdITOL3A5njuY4-mUMgbY2wPIrLTacICArMCZS-ivX8TDEUXytS7AMWMotDr-Nvc2XFFtp63jovmjmZ-SWy7iovc7muojjXcsQ1C69yk6fQLqx9RCFGxW121K7MGuO4YGDruJ_ltpmsEQ9nKQMfFMvZ5HFfIDiL57fpb2vHyXhY6pkk3kaHY1DCSsjfikohJ0gKR706_qg-u8cHeazmIUYg3pqAc2pOUCQsL8s3nIE9OslJH1V3y70F7KWneE0sIBA95YH7onq&uuid=400d84bc-b8dd-4a55-8726-5e3f183a9627&authuser=0&nonce=guen89tjt8ppo&user=11296394643127616404&hash=87ncjcsnmcnvjde573n16s5vm8ef4im3">
                   Resume
                 </a>
               </li>
@@ -87,6 +95,9 @@ export default function Home() {
               </a>
               <a className="hover:rotate-6 hover:scale-125  ease-in-out transition duration-700" href="https://www.youtube.com/@ZACKDEV/featured">
               <AiFillYoutube />
+              </a>
+              <a className="hover:-rotate-6 hover:scale-125  ease-in-out transition duration-700" href="mailto:zackddesigns@outlook.com">
+                <AiTwotoneMail />
               </a>
             </div>
             <div>
@@ -163,52 +174,60 @@ export default function Home() {
                 artist, related songs, and others. Shows top artist, top songs, related artists, and more!
                 This provides a seemless UI/UX for users along with low cpu usage rates. 
               </p>
+              <a href="https://github.com/ZeroScriptz/music4all">
               <button 
-                href="/"
+                
                 className="shadow-xl bg-gradient-to-tr from-teal-700 opacity-60 hover:scale-105 hover:opacity-75 to-white dark:bg-info  text-sm font-bold font-serif text-bold  text-black px-1 py-1 border-none rounded-md ml-2"
                 >
                   Source 
                   </button>
+                  </a>
                   <text className="px-1">●</text>
+                  <a href="https://musicforall.netlify.app">
                   <button 
-                href="/"
+                
                 className="shadow-xl bg-gradient-to-tl  from-teal-700 opacity-60 hover:scale-105 hover:opacity-75 to-white dark:bg-info text-sm font-bold font-serif text-bold  text-black px-1 py-1 border-none rounded-md ml-2"
                 >
-                  Download
+                  LIVE VIEW
                   </button>
+                  </a>
               <h4 className="py-4 pb-2 font-bold text-black">Design Tools I Use</h4>
               <div className="text-5xl flex justify-center my-30 text-gray-600 dark:text-gray-400">
-              <p className="text-gray-800 pb-2 py-2 px-3"><SiReact className=" text-5xl" /></p>
-              <p className="text-gray-800 pb-2 py-2 px-3"><SiTailwindcss className=" text-5xl" /></p>
-              <p className="text-gray-800 py-2 px-3"><SiHtml5 className=" text-5xl" /></p>
-              <p className="text-gray-800 py-2 px-3"><SiJavascript className=" text-5xl" /></p>
+              <p className="text-gray-800 pb-2 py-2 px-3 hover:scale-105 hover:-rotate-12 ease-in-out duration-700"><SiReact className=" text-5xl" /></p>
+              <p className="text-gray-800 pb-2 py-2 px-3 hover:scale-105 hover:rotate-12 ease-in-out duration-700"><SiTailwindcss className=" text-5xl" /></p>
+              <p className="text-gray-800 py-2 px-3 hover:scale-105 hover:-rotate-12 ease-in-out duration-700"><SiHtml5 className=" text-5xl" /></p>
+              <p className="text-gray-800 py-2 px-3 hover:scale-105 hover:rotate-12 ease-in-out duration-700"><SiJavascript className=" text-5xl" /></p>
               </div>
             </div>
             <div className="text-center  p-10 rounded-md my-10 shadow-xl bg-gradient-to-b from-teal-600 to-white dark:bg-info flex-1">
-              <h3 className="text-lg font-bold pt-8 pb-2 ">Website </h3>
+              <h3 className="text-lg font-bold pt-8 pb-2 ">Code-Eye AI</h3>
               <p className="py-2 font-serif">
-                Interested in a website yourself? Contact me we can work on a new project! This website was created using Framer Motion, Tailwind, Typescript, React,
-                and Next.js!
+              A lot of people LOVE ChatGPT, though anyone notice that it is hard to access due to EVERYONE using it? 
+              Well I created a Web Application using HTML, CSS, JavaScript and the OpenAI API to never worry about the wait time on ChatGPT !
               </p>
+              <a href="https://github.com/ZeroScriptz/code-eye-ai">
               <button 
-                href="/"
+                
                 className="shadow-xl bg-gradient-to-tr from-teal-700 opacity-60 hover:scale-105 hover:opacity-75 to-white dark:bg-info  text-sm font-bold font-serif text-bold  text-black px-1 py-1 border-none rounded-md ml-2"
                 >
                   Source 
                   </button>
+                  </a>
                   <text className="px-1">●</text>
+                  <a href="https://code-eye.vercel.app">
                   <button 
-                href="/"
+                
                 className="shadow-xl bg-gradient-to-tl  from-teal-700 opacity-60 hover:scale-105 hover:opacity-75 to-white dark:bg-info text-sm font-bold font-serif text-bold  text-black px-1 py-1 border-none rounded-md ml-2"
                 >
-                  Download
+                  LIVE VIEW
                   </button>
+                  </a>
               <h4 className="py-4 text-black font-bold">Design Tools I Use</h4>
               <div className="text-5xl flex justify-center my-30 text-gray-600 dark:text-gray-400">
-              <p className="text-gray-800 pb-2 py-2 px-3"><SiReact className=" text-5xl" /></p>
-              <p className="text-gray-800 pb-2 py-2 px-3"><SiTailwindcss className=" text-5xl" /></p>
-              <p className="text-gray-800 py-2 px-3"><SiTypescript className=" text-5xl" /></p>
-              <p className="text-gray-800 py-2 px-3"><SiJavascript className=" text-5xl" /></p>
+              <p className="text-gray-800 pb-2 py-2 px-3 hover:scale-105 hover:-rotate-12 ease-in-out duration-700"><SiHtml5 className=" text-5xl" /></p>
+              <p className="text-gray-800 pb-2 py-2 px-3 hover:scale-105 hover:rotate-12 ease-in-out duration-700"><SiOpenai className=" text-5xl" /></p>
+              <p className="text-gray-800 py-2 px-3 hover:scale-105 hover:-rotate-12 ease-in-out duration-700"><SiCss3 className=" text-5xl" /></p>
+              <p className="text-gray-800 py-2 px-3 hover:scale-105 hover:rotate-12 ease-in-out duration-700"><SiJavascript className=" text-5xl" /></p>
               </div>
             </div>
           </div>
@@ -239,14 +258,14 @@ export default function Home() {
               all without the need for a modpack. Utilize YAML/YML configuration to easily add a variety of cool objects, plants, and more to your Minecraft world.
               </p>
 
-              <h4 className="py-4 text-black font-bold">Languages Used</h4>
+              <h4 className="py-4 text-black font-bold">Design Tools Used</h4>
 
               <div className="text-xl flex justify-center my-30 text-gray-600 dark:text-gray-400">
 
-              <p className="text-gray-800 pb-2 py-2 px-3"><SiLua className=" text-5xl" /></p>
-              <p className="text-gray-800 py-2 px-3"><SiHtml5 className=" text-5xl" /></p>
-              <p className="text-gray-800 py-2 px-3"><SiJavascript className=" text-5xl" /></p>
-              <p className="text-gray-800 py-2 px-3"><SiCsswizardry className=" text-5xl" /></p>
+              <p className="text-gray-800 pb-2 py-2 px-3 hover:scale-105 hover:-rotate-12 ease-in-out duration-700"><SiMinecraft className=" text-5xl" /></p>
+              <p className="text-gray-800 py-2 px-3 hover:scale-105 hover:rotate-12 ease-in-out duration-700"><SiAdobe className=" text-5xl" /></p>
+              <p className="text-gray-800 py-2 px-3 hover:scale-105 hover:-rotate-12 ease-in-out duration-700"><AiFillCode className=" text-5xl" /></p>
+              <p className="text-gray-800 py-2 px-3 hover:scale-105 hover:rotate-12 ease-in-out duration-700"><SiJson className=" text-5xl" /></p>
               </div>
             </div>
             <div className=" text-center shadow-xl p-10 rounded-md my-10 bg-gradient-to-b hover:-my-2 ease-in-out duration-700  from-teal-600 to-white  dark:bg-info flex-1">
@@ -267,10 +286,10 @@ export default function Home() {
               </p>
               <h4 className="py-4 pb-2 font-bold text-black">Design Tools I Use</h4>
               <div className="text-5xl flex justify-center my-30 text-gray-600 dark:text-gray-400">
-              <p className="text-gray-800 pb-2 py-2 px-3"><SiReact className=" text-5xl" /></p>
-              <p className="text-gray-800 pb-2 py-2 px-3"><SiTailwindcss className=" text-5xl" /></p>
-              <p className="text-gray-800 py-2 px-3"><SiHtml5 className=" text-5xl" /></p>
-              <p className="text-gray-800 py-2 px-3"><SiJavascript className=" text-5xl" /></p>
+              <p className="text-gray-800 pb-2 py-2 px-3 hover:scale-105 hover:rotate-12 ease-in-out duration-700"><SiMinecraft className=" text-5xl" /></p>
+              <p className="text-gray-800 py-2 px-3 hover:scale-105 hover:-rotate-12 ease-in-out duration-700"><SiAdobe className="text-5xl" /></p>
+              <p className="text-gray-800 py-2 px-3 hover:scale-105 hover:rotate-12 ease-in-out duration-700"><AiFillCode className="text-5xl" /></p>
+              <p className="text-gray-800 py-2 px-3 hover:scale-105 hover:-rotate-12 ease-in-out duration-700"><SiJson className="text-5xl" /></p>
               </div>
             </div>
             <div className="text-center shadow-xl p-10 rounded-md hover:-my-2 ease-in-out duration-700  my-10 bg-gradient-to-b from-teal-600 to-white dark:bg-info flex-1">
@@ -288,10 +307,10 @@ export default function Home() {
 
               <h4 className="py-4 text-black font-bold">Design Tools I Use</h4>
               <div className="text-5xl flex justify-center my-30 text-gray-600 dark:text-gray-400">
-              <p className="text-gray-800 pb-2 py-2 px-3"><SiReact className=" text-5xl" /></p>
-              <p className="text-gray-800 pb-2 py-2 px-3"><SiTailwindcss className=" text-5xl" /></p>
-              <p className="text-gray-800 py-2 px-3"><SiTypescript className=" text-5xl" /></p>
-              <p className="text-gray-800 py-2 px-3"><SiJavascript className=" text-5xl" /></p>
+              <p className="text-gray-800 pb-2 py-2 px-3 hover:scale-105 hover:-rotate-12 ease-in-out duration-700"><SiMinecraft className=" text-5xl" /></p>
+              <p className="text-gray-800 py-2 px-3 hover:scale-105 hover:rotate-12 ease-in-out duration-700"><SiAdobe className=" text-5xl" /></p>
+              <p className="text-gray-800 py-2 px-3 hover:scale-105 hover:-rotate-12 ease-in-out duration-700"><AiFillCode className=" text-5xl" /></p>
+              <p className="text-gray-800 py-2 px-3 hover:scale-105 hover:rotate-12 ease-in-out duration-700"><SiOracle className=" text-5xl" /></p>
               </div>
             </div>
           </div>
@@ -300,16 +319,19 @@ export default function Home() {
         <div>
             <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
+            Starting out with my portfolio I was
+              developing in minecraft for awhile but never
+              did any good documentation. Furthermore I made
+              my youtube that went great and did work on smaller projects. Later more I worked for
+               Quick Quack made the gift-card generator program then continued to learn! Later on I made some FiveM Game scripts and 
+              <span className="text-teal-500"> sold </span>
+              those assets completely. Later on I continued my growth with  <span className="text-teal-500"> Coursera </span>
+              courses and have made a few projects from what I have learned along with continuing to make more! 
+              Whether its Ai Generation or something new I am always willing to learn.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
+              I do offer a range of services from Web Development, Front End Development, Shopify Development, Brand Design and more!
+              Contact me through LinkedIn or the Email Button above.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
