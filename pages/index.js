@@ -27,6 +27,7 @@ import React, { useState } from 'react';
 import { Name } from './name.tsx' 
 import { motion } from "framer-motion"
 
+export function getServerSideProps() { return { props: {} }; } 
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
